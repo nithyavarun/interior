@@ -9670,3 +9670,70 @@ h6 {
   padding: 0;
   list-style-type: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid.custom-width {
+  max-width: 1400px;
+  margin: auto;
+}
+.mt-5.py-5.pr-lg-5 {
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+}
+.text-primary {
+  color: #007bff;
+}
+.font-weight-normal {
+  font-weight: normal;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.section-title {
+  font-size: 2.5rem;
+}
+.clients-images {
+  overflow: hidden;
+  position: relative;
+  max-width: 1400px;
+  height: 200px;
+  margin: 0 auto;
+}
+.image-slider {
+  display: flex;
+  width: calc(20rem * 7 + 20px * 6); /* Total width considering all images and margins */
+  animation: slide 20s linear infinite;
+}
+.client-img {
+  width: 20rem;
+  height: 12rem;
+  margin-right: 20px;
+}
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(calc(-20rem * 7 - 20px * 6)); /* Total width to slide */
+  }
+}
